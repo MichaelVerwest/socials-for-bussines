@@ -1,0 +1,327 @@
+@media screen and (min-width: 480px) {
+    .header-title {        
+        color: #fff;
+    }
+    .header-description { 
+        color: #fafafa;
+    }
+    .header-text {
+        margin: 80px 0 0 0;
+    }
+    .biography-title {
+        font-size: 30px;
+    }
+    .letter-form [placeholder] {
+        width: 430px;
+    }
+    .contact {
+        margin-left: 0;
+    }
+    .social-menu-footer {
+        margin: 14px;
+    }                        
+}
+
+@media screen and (min-width: 672px) {
+    .letter-button {
+        margin: 0 0 0 26px;
+    }
+    .footer-logo-block {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 0;
+    }
+    .quick_Links {
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: center;
+    }
+    .hours-block {
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: center;
+    }
+    .contact {
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: center;
+    }
+    .footer-block {
+        margin: 341px 0 0 0;
+    }
+    .footer-logo {
+        color: #ffffff;
+    }
+    .footer-bottom-title {
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .social-menu {
+        display: block;
+        position: absolute;
+        top: 414px;
+    }
+    .offer-block {
+        margin-top: 0;
+    }
+    .pricing {
+        grid-template-columns: minmax(256px, 371px) minmax(256px, 371px);
+        grid-template-rows: minmax(auto, 463px) minmax(auto, 415px);
+        justify-content: center;
+        grid-gap: 74px;
+    }
+    .grid-item {
+        grid-column: 1 / -1;    
+    }   
+}
+
+@media screen and (min-width: 934px) {
+    .header-title { 
+        color: #42495b;
+    }
+    .header-description { 
+        color: black;
+    }
+    .offer {
+        display: grid;
+        grid-template-columns: 368px 368px;
+        grid-template-rows: 411px;
+        grid-column-gap: 38px;
+        grid-row-gap: 111px;
+        margin-top: 87px;    
+    }
+    .social_media_management {
+        margin: 22px 134px 38px 143px ;
+    }
+    .social_growth_campaign {
+        margin: 22px 134px 38px 144px;
+    }
+    .branding_media_block {
+        margin: 28px 133px 37px 143px;
+    }
+    .influencer_marketing_block {
+        margin: 26px 138px 40px 144px;
+    }
+    .paid_advertising {
+        margin: 22px 136px 42px 146px;
+    }
+    .content_marketing_services {
+        margin: 33px 133px 37px 145px;
+    }
+    .title_block {
+        margin: 0 45px 35px 31px;
+        justify-content: flex-start;
+    }
+    .block-text {
+        text-align: left;   
+    }
+    .offer-button {
+        margin: 0 56px 27px 218px;    
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #nav-icon {
+        display: none;
+    }
+    .content {
+        max-width: 1400px;
+        padding: 42px 104px 68px 97px; 
+    }
+    .navigation_ul {
+        display: flex;        
+    }   
+    .header-text {
+        display: flex;
+        justify-content: center;        
+        flex-direction: column;
+        margin: 80px 0 0 0;
+    }
+    .biography-title {
+        font-size: 50px;
+    } 
+    .offer {
+        grid-column-gap: 88px;
+    }
+    .services-text {       
+        font-size: 25px;
+        margin: 0 0 10px 36px;       
+    }
+    .services-title {
+        font-size: 50px;
+        margin: 0 0 0 36px;            
+    }
+    .pricing {
+        grid-template-columns: minmax(256px, 371px) minmax(256px, 371px) minmax(256px, 371px);
+        grid-template-rows: minmax(auto, 483px);
+    }
+    .grid-item {
+        grid-column: auto;
+        height: auto;
+    }
+    .pricing-title {
+        font-size: 50px;
+    }
+    .letter-title {
+        font-size: 32px;
+    }
+    .footer-logo-block {
+        flex: none;
+        margin-bottom: 0;
+    }
+    .quick_Links {
+        flex: none;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .hours-block {
+        flex: none;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .hours-menu {
+        justify-content: space-between;
+    }
+    .contact {
+        flex: none;
+        text-align: left;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1070px) {
+    .footer-block {
+        justify-content: space-between;
+        margin: 194px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1118px) {
+    #scrollmore {
+        display: block;
+        position: absolute;
+        top: 627px;
+        right: 50%;
+    } 
+    .header-image {
+        display: block;
+        width: 588px;
+        height: 471px;
+        position: absolute;  
+        top: 157px;
+        right: 98px;
+    }
+    .header-text {
+        display: flex;
+        justify-content: center;        
+        flex-direction: column;
+        margin: 80px 0 0 0;
+    }
+    .header-content {    
+        justify-content: space-between;
+        text-align: start;   
+    }
+    .header-title { 
+        line-height: 60px;
+    }
+    .header-description { 
+        color: #7a839e;
+    } 
+    .biography-image {
+        display: block;
+        margin: 5px 0 0 0px;   
+    }
+    .biography-panel {
+        width: 534px;
+        margin: 5px 0px 0 0;
+        display: flex;
+        flex-direction: column;    
+    }          
+}
+
+@media screen and (min-width: 1200px) {    
+    .header-image {
+        display: block;
+        width: 588px;
+        height: 471px;
+        position: absolute;  
+        top: 157px;
+        right: 104px;
+    }
+    .background-woman {
+        max-width: 100%;
+    }
+    .biography-content {
+        margin-top: 135px;
+    }
+    .offer-content {
+        margin-top: 161px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .header-text {
+        display: flex;
+        justify-content: center;        
+        flex-direction: column;
+        margin: 142px 0 19px 120px;
+    }
+    .header-title {
+        font-size: 45px;
+    }
+    .header-button {
+        display: block; 
+    }
+    .biography-panel {
+        margin: 6px 40px 0 81px;
+        align-items: flex-start;
+        text-align: left;   
+    }
+    .biography-image {
+        margin: 5px 0 0 62px;
+    }
+    .offer {
+        grid-template-columns: 368px 368px 368px;                          
+    }
+    .services-text {
+        display: block;
+    }
+    .services-title {
+        display: block;
+    }
+    .pricing {
+        grid-template-rows: minmax(auto, 463px);
+    }
+    .footer-block {
+        justify-content: space-between;
+        margin: 194px 197px 0 123px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .header { 
+        background-position: right top;
+        background-size: 54.5% 700px;
+    }
+    .biography-panel {
+        margin: 6px 162px 0 68px;
+        align-items: flex-start;
+        text-align: left;   
+    }
+    .biography-content {    
+        background-position: right top;
+        background-size: 55% 590px;
+    }
+    .offer-block {
+        margin-left: 63px;
+    }
+    .offer {        
+        grid-column-gap: 88px;
+        justify-content: start;         
+    }
+    .footer {
+        background-size: 100% 565px;
+    }
+}
